@@ -1,0 +1,12 @@
+<configuration debug="true">
+        
+        <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			 <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %logger{0} {%X} - %msg%n</pattern>
+		</layout>
+	</appender>
+
+        <root level="info">
+                <appender-ref ref="STDOUT" />
+        </root>
+</configuration>
