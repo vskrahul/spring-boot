@@ -3,3 +3,10 @@ logging:
     org:
       springframework:
         security: DEBUG
+        
+        
+application:
+  jwt:
+    secretKey: securesecuresecuresecuresecuresecuresecure
+    tokenPrefix: Bearer 
+    tokenExpirationDay: 14
